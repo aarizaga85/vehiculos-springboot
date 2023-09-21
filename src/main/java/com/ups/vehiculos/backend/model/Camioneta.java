@@ -2,7 +2,7 @@ package com.ups.vehiculos.backend.model;
 
 public class Camioneta extends Vehiculo {
 
-    public int capacidadBalde = 1050;
+	private int capacidadBalde = 1050;
 
     @Override
     public double obtenerCostoMatricular() {
